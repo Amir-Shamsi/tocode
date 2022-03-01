@@ -1,1 +1,45 @@
+from setuptools import find_packages, setup
 
+with open('README.md') as f:
+    long_description = f.read()
+setup(
+    name='tocode',
+    packages=find_packages(include=['tocode.*']),
+
+    version='0.1.0',
+    description='a python library that convert string to code.',
+    author='Amir Shamsi',
+    url='https://github.com/Amir-Shamsi/SpAlgo',
+
+    license='BST',
+    author_email='amirshamsi.github@gmail.com',
+
+    github='https://github.com/Amir-Shamsi',
+    linkedin='https://linkedin.com/in/amir-shamsi',
+
+    install_requires=[],
+    # download_url='https://github.com/Amir-Shamsi/tocode/archive/refs/tags/0.2.1.tar.gz',
+
+    keywords=['tocode', 'convertor', 'string-to-code', 'code', 'string'],
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
+    test_suite='tests',
+    include_package_data=True,
+    zip_safe=False,
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Build Tools',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+    ],
+    long_description=long_description,
+    long_description_content_type='text/markdown'
+)
