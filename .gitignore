@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# ide directories
+interpreter/
+.idea/
+dev-test-dir/
+
 # Distribution / packaging
 .Python
 build/
