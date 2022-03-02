@@ -1,6 +1,6 @@
 import pathlib
 import os
-def _reset_files():
+def __reset_files():
     """
      file rester
     """
