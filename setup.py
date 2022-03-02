@@ -2,6 +2,10 @@ from setuptools import find_packages, setup
 
 with open('README.md') as f:
     long_description = f.read()
+
+with open('doc/Version') as ver:
+    version_ = ver.read()
+
 setup(
     name='tocode',
     packages=find_packages(include=['tocode.*']),
@@ -18,7 +22,7 @@ setup(
     linkedin='https://linkedin.com/in/amir-shamsi',
 
     install_requires=[],
-    # download_url='https://github.com/Amir-Shamsi/tocode/archive/refs/tags/0.2.1.tar.gz',
+    download_url='https://github.com/Amir-Shamsi/tocode/archive/refs/tags/'+ version_ +'.tar.gz',
 
     keywords=['tocode', 'convertor', 'string-to-code', 'code', 'string'],
     setup_requires=['pytest-runner'],
