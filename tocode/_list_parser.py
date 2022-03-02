@@ -43,7 +43,7 @@ def listParser(str_list: str, no_string_quotation: bool = False):
                 break
 
             try:
-                if detail.split('\'')[1] == 'name ' and detail.split('\'')[2] == ' is not defined':
+                if detail.split('\'')[0] == 'name ' and detail.split('\'')[2] == ' is not defined':
                     _f_index = str_list.find(detail.split('\'')[1])
                     str_list = str_list.replace(detail.split('\'')[1], "'" + 'त'*(len(detail.split('\'')[1])) + "'", 1)
                     str_list_final = str_list_final[:_f_index] + "'" + str_list_final[_f_index: (_f_index + len(detail.split('\'')[1]))] + "'" + str_list_final[(_f_index + len(detail.split('\'')[1])):]
