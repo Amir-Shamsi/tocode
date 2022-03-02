@@ -24,7 +24,7 @@ setup(
     install_requires=[],
     download_url='https://github.com/Amir-Shamsi/tocode/archive/refs/tags/'+ version_ +'.tar.gz',
 
-    keywords=['tocode', 'convertor', 'string-to-code', 'code', 'string'],
+    keywords=['tocode', 'convertor', 'string-to-code', 'code', 'string', 'code-generator', 'generator'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     test_suite='tests',
