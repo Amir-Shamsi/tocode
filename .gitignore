@@ -10,6 +10,7 @@ __pycache__/
 interpreter/
 .idea/
 dev-test-dir/
+tocode/__inner_files__/_gen/__code_gen_list__.py
 
 # Distribution / packaging
 .Python
