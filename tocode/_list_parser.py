@@ -43,10 +43,13 @@ def listParser(str_list: str, no_string_quotation: bool = False):
                 break
 
             try:
-                _f_index = str_list.find(detail.split('\'')[1])
-                str_list = str_list.replace(detail.split('\'')[1], "'" + 'त'*(len(detail.split('\'')[1])) + "'", 1)
-                str_list_final = str_list_final[:_f_index] + "'" + str_list_final[_f_index: (_f_index + len(detail.split('\'')[1]))] + "'" + str_list_final[(_f_index + len(detail.split('\'')[1])):]
-            except Exception as err:
+                if detail.split('\'')[1] == 'name ' and detail.split('\'')[2] == ' is not defined':
+                    _f_index = str_list.find(detail.split('\'')[1])
+                    str_list = str_list.replace(detail.split('\'')[1], "'" + 'त'*(len(detail.split('\'')[1])) + "'", 1)
+                    str_list_final = str_list_final[:_f_index] + "'" + str_list_final[_f_index: (_f_index + len(detail.split('\'')[1]))] + "'" + str_list_final[(_f_index + len(detail.split('\'')[1])):]
+                else:
+                    return detail + ' at line ' + str(line_number)
+            except Exception as ignored:
                 return detail + ' at line ' + str(line_number)
         str_list = __Str.space_decoder(str_list_final)
 
@@ -79,12 +82,13 @@ class __Str:
         _str = list(_str)
         _space_index_st = 0
         for _index in range(len(_str)):
-            if _str[_index - 1] not in __inner_signs__ and _str[_index + 1] not in __inner_signs__ and _str[_index] == ' ':
-                _str[_index] = 'र'
-                if _space_index_st == 0:
-                    _space_index_st = _index
-            elif _str[_index] == ' ':
-                _str[_index] = ''
+            if _str[_index] == ' ':
+                if _str[_index - 1] not in __inner_signs__ and _str[_index + 1] not in __inner_signs__:
+                    _str[_index] = 'र'
+                    if _space_index_st == 0:
+                        _space_index_st = _index
+                else:
+                    _str[_index] = ''
             else:
                 if _space_index_st > 0 and _str[_index] == ',':
                     for _ind in range(_space_index_st, _index):
