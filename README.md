@@ -1,2 +1,2 @@
 # tocode
-a python library to convert string to code
+this is a python library to convert string to code
