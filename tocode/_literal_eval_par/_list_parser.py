@@ -61,7 +61,7 @@ def listParser(str_list: str, no_string_quotation: bool = False):
         _lcd = _lcd.replace('return', 'return ' + str_list)
         _inner_lcode_gen.write(_lcd)
 
-    from .__inner_files__._gen import __code_gen_list__
+    from tocode.__inner_files__._gen import __code_gen_list__
     __code_gen_list__ = reload(__code_gen_list__)
 
     _generated_arr = __code_gen_list__._list_code__gen()
