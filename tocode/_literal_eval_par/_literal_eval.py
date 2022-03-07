@@ -7,7 +7,7 @@ from tocode._literal_eval_par._str_parser import __Str
 
 _current_abso_path = pathlib.Path(__file__).parent.parent.absolute()
 
-def listParser(str_list: str, no_string_quotation: bool = False):
+def literal_eval(str_list: str, no_string_quotation: bool = False):
     """
     the list parser will convert list in string to the list and there is
     an option available `no_string_quotation` if you string contains the
