@@ -5,7 +5,7 @@ import pathlib
 from tocode.__inner_files__._built_in._built_in_file_manager import __reset_files
 from tocode._literal_eval_par._str_parser import __Str
 
-_current_abso_path = pathlib.Path(__file__).parent.absolute()
+_current_abso_path = pathlib.Path(__file__).parent.parent.absolute()
 
 def listParser(str_list: str, no_string_quotation: bool = False):
     """
