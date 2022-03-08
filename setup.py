@@ -10,7 +10,7 @@ setup(
     name='tocode',
     packages=find_packages(include=['tocode.*']),
 
-    version='0.1.0',
+    version=version_,
     description='a python library that convert string to code.',
     author='Amir Shamsi',
     url='https://github.com/Amir-Shamsi/tocode',
