@@ -4,7 +4,7 @@
 </p>
 
 [![Python version](https://img.shields.io/badge/python->%5E3.4-purple?style=flat-square)](https://www.python.org/)
-[![BSD Licence](https://img.shields.io/badge/licence-BST-geen?style=flat-square)](LICENSE)
+[![BSD Licence](https://img.shields.io/badge/licence-MIT-geen?style=flat-square)](LICENSE)
 <a href="https://github.com/Amir-Shamsi/tocode" title="Repo Size">
 <img src="https://img.shields.io/github/repo-size/Amir-Shamsi/tocode?label=Repo%20Size&logo=Github&style=flat-square" alt="Project Initiator Repo Size"/>
 </a>
