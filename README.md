@@ -84,7 +84,6 @@ Supported versions of python for this library are as follow:
 This project is under BST license read it
 [here](https://github.com/Amir-Shamsi/tocode/blob/master/LICENSE):
 ```LICENSE
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
