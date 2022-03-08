@@ -15,7 +15,7 @@ setup(
     author='Amir Shamsi',
     url='https://github.com/Amir-Shamsi/SpAlgo',
 
-    license='BST',
+    license='MIT',
     author_email='amirshamsi.github@gmail.com',
 
     github='https://github.com/Amir-Shamsi',
