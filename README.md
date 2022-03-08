@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/github/repo-size/Amir-Shamsi/tocode?label=Repo%20Size&logo=Github&style=flat-square" alt="Project Initiator Repo Size"/>
 </a>
 [![Downloads](https://static.pepy.tech/personalized-badge/tocode?period=total&units=international_system&left_color=black&right_color=MediumVioletRed&left_text=Downloads)](https://pepy.tech/project/tocode)
-[![PyPI version shields.io](https://img.shields.io/pypi/v/tocode.svg?style=flat-square)](https://pypi.python.org/pypi/SpAlgo/)
+[![PyPI version shields.io](https://img.shields.io/pypi/v/tocode.svg?style=flat-square)](https://pypi.python.org/pypi/tocode/)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/amir-shamsi/tocode/CodeQL?style=flat-square)
   
 This is a library that can convert the strings to code and return the literal eval of that it will convert strings which contain:
