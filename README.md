@@ -12,7 +12,7 @@
 [![PyPI version shields.io](https://img.shields.io/pypi/v/tocode.svg?style=flat-square)](https://pypi.python.org/pypi/SpAlgo/)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/amir-shamsi/tocode/CodeQL?style=flat-square)
   
-This is a library which can convert the strings to code and return the literal eval of that it will convert strings which contain:
+This is a library that can convert the strings to code and return the literal eval of that it will convert strings which contain:
  - lists
  - tuples
  - dictionaries
@@ -21,7 +21,7 @@ This is a library which can convert the strings to code and return the literal e
 ## Overview
 
 into the python eval and the most important thing in this library that make it unique is:<br>
-**when your strings doesn't have any `quotation` no worries it will add qoutations for you!**
+**if your strings don't have any `quotation` no worries it will add quotations for you!**
 
 example
 
@@ -60,7 +60,7 @@ my_array = " ['Hello', Goodbye my friend, 2.5, (4, ok), {one: 450, 'two': 12}] "
 my_array = tocode.literal_eval(my_array, no_string_quotation=True)
 """
   if some of the strings don't have quotation set `no_string_quotation` to True
-  otherwise set it to False or leave it.
+  otherwise, set it to False or leave it.
 """
 # will return the list into a python list
 ```
