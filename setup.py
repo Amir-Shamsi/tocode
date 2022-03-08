@@ -13,7 +13,7 @@ setup(
     version='0.1.0',
     description='a python library that convert string to code.',
     author='Amir Shamsi',
-    url='https://github.com/Amir-Shamsi/SpAlgo',
+    url='https://github.com/Amir-Shamsi/tocode',
 
     license='MIT',
     author_email='amirshamsi.github@gmail.com',
