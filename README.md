@@ -12,12 +12,13 @@
 [![PyPI version shields.io](https://img.shields.io/pypi/v/tocode.svg?style=flat-square)](https://pypi.python.org/pypi/tocode/)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/amir-shamsi/tocode/CodeQL?style=flat-square)
   
-This is a library that can convert the strings to code and return the literal eval of that it will convert strings which contain:
+This is a library that can convert the strings to code and return the literal eval of that, it will convert strings which contain:
  - lists
  - tuples
  - dictionaries
  - sets
-into the python eval
+into the python eval.
+
 ## Overview
 
 The most important thing in this library that make it unique is:<br>
