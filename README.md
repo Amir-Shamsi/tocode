@@ -82,7 +82,7 @@ Supported versions of python for this library are as follow:
 
 
 ## License
-This project is under BST license read it
+This project is under MIT license read it
 [here](https://github.com/Amir-Shamsi/tocode/blob/master/LICENSE):
 ```LICENSE
 Permission is hereby granted, free of charge, to any person obtaining a copy
